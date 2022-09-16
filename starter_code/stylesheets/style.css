@@ -8,3 +8,130 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        background-color: #540B51;
+        width: 100%;
+        display: flex;
+    }
+    .hamburger {
+        display: none;
+    }
+    .slackIcon {
+        width: 30%;
+        margin: 20px;
+    }
+    .menu-icons {
+        display: flex;
+        margin-right: 10px;
+    }
+    .menu-icons button {
+        background-color: transparent;
+        border: transparent;
+    }
+    header {
+        background-color: #540B51;
+        padding: 0px 15px;
+    }
+    header h1 {
+        color: white;
+        margin-top: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    header p {
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+    .orange-text {
+        color: orange;
+    }
+    .singup-button {
+        width: 100%;
+        font-size: 15px;
+        font-weight: bold;
+        color: #540B51;
+        text-transform: uppercase;
+        padding: 12px;
+        margin-top: 10px;
+        height: 50px;
+    }
+    .google-button {
+        width: 100%;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: #4285F4;
+        text-transform: uppercase;
+        line-height: 40px;
+        margin-top: 10px;
+        color: white;
+        height: 50px;
+        margin-right: 10%;
+    }
+    .google-button img {
+        width: 8%;
+        float: left;
+        background-color: white;
+        padding: 4px;
+    }
+    .slack-ui {
+        width: 100%;
+        margin-top: 17px;
+    }
+    .companies {
+        background-color: #F3EAE2;
+        padding: 30px;
+    }
+    .title-companies {
+        text-transform: uppercase;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .companies-logos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .companies-logos img {
+        height: 30px;
+        margin-right: 16px;
+        margin-bottom: 30px;
+    }
+    .background-brown {
+        background-color: #F3EAE2;
+    }
+    .images-second-section {
+        width: 95%;
+    }
+    .second-section {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .second-section p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .second-section a {
+        text-decoration: none;
+        color: #2E71A6;
+    }
+    .second-image {
+        float: right;
+        margin-bottom: 20px;
+    }
+    .second-section h2 {
+        margin: 0;
+        padding-top: 20px;
+    }
+}
