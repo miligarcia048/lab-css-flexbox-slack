@@ -134,4 +134,148 @@ body {
         margin: 0;
         padding-top: 20px;
     }
+    .teams {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .teams h3 {
+        margin: 0 20px;
+        text-align: center;
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    .teams p {
+        text-align: center;
+        font-size: 14.5px;
+    }
+    .meet-slack-button {
+        width: 100%;
+        font-size: 13px;
+        font-weight: bold;
+        background-color: #540B51;
+        color: white;
+        border: none;
+        text-transform: uppercase;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 3px;
+        height: 50px;
+    }
+    .talk-sales-button {
+        width: 100%;
+        font-size: 13px;
+        font-weight: bold;
+        color: #540B51;
+        background-color: white;
+        border: 2px #540B51 solid;
+        text-transform: uppercase;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 3px;
+        height: 50px;
+    }
+    .percentages {
+        list-style: none;
+        padding: 20px 90px 0px 90px;
+    }
+    .percentages span {
+        color: #540B51;
+        font-size: 35px;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    .percentages p {
+        text-align: center;
+        font-size: 13.5px;
+        font-weight: bold;
+    }
+    .rounded-violet {
+        background-color: #540B51;
+        padding: 0px 15px 120px 15px;
+    }
+    .rounded-violet h3 {
+        margin: 20px;
+        text-align: center;
+        font-size: 26px;
+        padding-top: 20px;
+        color: white;
+    }
+    .try-free-button {
+        width: 100%;
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        background-color: transparent;
+        border: 2px white solid;
+        text-transform: uppercase;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 3px;
+        height: 50px;
+    }
+    .sales-button {
+        width: 100%;
+        font-size: 13px;
+        font-weight: bold;
+        color: #540B51;
+        background-color: white;
+        text-transform: uppercase;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 3px;
+        height: 50px;
+    }
+    .footer-menu {
+        display: flex;
+    }
+    .footer-menu ul {
+        list-style: none;
+        padding: 15px;
+    }
+    .footer-menu li {
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    .footer-menu li:first-child {
+        font-size: 11px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        height: 30px;
+    }
+    .slack-logotipo {
+        width: 12%;
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+    .line {
+        margin: 0 14px;
+        color: lightgray!important;
+    }
+    .second-footer-menu {
+        list-style: none;
+        padding: 15px;
+    }
+    .second-footer-menu li {
+        font-size: 11px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .download {
+        color: #2E71A6;
+    }
+    .icons {
+        list-style: none;
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+    }
+    .icons i {
+        width: 20%;
+    }
+    .copy {
+        font-size: 12px;
+        padding: 15px;
+        color: gray;
+        margin-bottom: 15px;
+    }
 }
